@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    padding: 16px 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #cbcbcb;
+    margin: 16px;
+}
+
+header .container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 28px;
+    font-size: 18px;
+}
+
+header nav li a {
+    font-size: 18px;
+    color: #cbcbcb;
+}
+
+header h2 {
+    padding-top: 16px;;
+}
+
+body {
+    background-image: url(images/fundo_escovado.jfif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.top-prod ul {
+    justify-content:right;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 593px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.339);
+    padding: 20px;
+}
+
+.carrousel {
+    overflow: hidden;
+    width: 310px;
+    height: 270px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.caixa-img {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.carrousel img {
+    width: 310px;
+    height: 270px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.oferta {
+    color: #6d6d6d;
+    text-decoration: line-through;
+}
+
+.preco {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.cores{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.cor--cinza {
+    background-color: #9c9c9c;
+}
+
+.cor--vermelho {
+    background-color: red;
+}
+
+.cor--golden {
+    background-color: gold;
+}
+
+.cor--white {
+    background-color: rgb(176, 176, 176);
+}
+
+.cor--grey {
+    background-color: rgb(85, 85, 85);
+}
+
+.cor--black {
+    background-color: rgb(39, 39, 39);
+}
+
+button {
+    background-color: #28bb1b;
+    border-radius: 8px;
+    border: transparent;
+    color: white;
+    height: 43px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a {
+    font-size: 16px;
+    color: #6d6d6d;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.selecionado {
+    border: 2px solid rgb(rgb(234, 255, 0), rgb(128, 128, 0), rgb(246, 255, 0));
+}
