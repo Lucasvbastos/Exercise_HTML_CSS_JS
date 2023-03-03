@@ -11,7 +11,7 @@ https://eletronicos.vercel.app/
 ## Front end
 - HTML
 - CSS
--JavaScript
+- JavaScript
 
 # Autor
 
